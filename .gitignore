@@ -1,5 +1,11 @@
-.Rproj.user
+# R related
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
-rsconnect
+
+# Mac OS
+.DS_Store
+
+# Shiny
+rsconnect/
