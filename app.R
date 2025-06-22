@@ -23,8 +23,8 @@ ui <- page_navbar(
     nav_item(input_dark_mode()),
     nav_spacer(),
     
-    # home tab 
-    source("ui/home-tab.R", local = TRUE)$value,
+    # # home tab 
+    # source("ui/home-tab.R", local = TRUE)$value,
     # asset tab
     source("ui/asset-tab.R", local = TRUE)$value,
     # consumption record tab
@@ -42,8 +42,8 @@ ui <- page_navbar(
 server <- function(input, output, session) {
     # server config
     source("server/config.R", local = TRUE)
-    # home tab
-    source("server/home-tab.R", local = TRUE)
+    # # home tab
+    # source("server/home-tab.R", local = TRUE)
     # asset tab
     source("server/asset-tab.R", local = TRUE)
     # consumption record tab
