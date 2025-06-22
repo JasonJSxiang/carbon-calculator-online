@@ -5,9 +5,9 @@ account: jasonjs
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 14960418
-bundleId: 10483077
+bundleId: 10498547
 url: https://jasonjs.shinyapps.io/carbon-calculator/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .vscode/settings.json
+ignoredFiles: .gitattributes
